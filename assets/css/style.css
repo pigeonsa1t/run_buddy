@@ -41,6 +41,34 @@ header h1 {
     margin: 0;
     display: inline;
 }
+.hero {   /*Hero Style Start*/ 
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}       /*Hero Style End*/
+/*Get Started Style Start*/
+.get-started { /*header*/
+    font-size: 25px;
+    font-weight: bold;
+}  
+.get-started-entry { /*subheader*/
+    padding: 15px;
+}
+/*Form Entry Start*/
+.hero-form { 
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    float: left;
+    border: solid 3px #024e76;
+}          
+.age-ask {
+    font-size: 13px;
+}  
+/*Form Entry End*/ 
 footer {
     background: #fce138;
     width: 100%;
@@ -60,7 +88,4 @@ footer div {
 footer a {
     color: #024e76;
 }
-section {
-    padding: 60px;
-    background-image: url("../images/hero-bg.jpg");
-}
+
