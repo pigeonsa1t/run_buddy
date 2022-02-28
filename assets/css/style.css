@@ -16,6 +16,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 header a {
     text-decoration: none;
@@ -40,6 +41,28 @@ header h1 {
     margin: 0;
     display: inline;
 }
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+}
+section {
+    padding: 60px;
+}
 /*Hero Style Start*/
 .hero {      
     background-image: url("../images/hero-bg.jpg");
@@ -62,12 +85,12 @@ header h1 {
 }  
 .hero-form h3 {
     font-size: 24px;
-    margin: 0px;
+    margin: 0;
 }
 .hero-form p {
     margin: 5px 0 15px 0;
 }
-.hero-form input {
+.form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -85,22 +108,3 @@ header h1 {
 }
 /*Form Entry End*/
 /*Hero Styles End*/            
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-footer a {
-    color: #024e76;
-}
