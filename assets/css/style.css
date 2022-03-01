@@ -142,6 +142,20 @@ section {
 }
 /*What You Do End*/
 /*Trainer Start*/
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: #fce138;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
 .trainers {
     text-align: center;
 }
@@ -174,20 +188,6 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
-}
 .text-left {
     text-align: left;
 }
@@ -196,21 +196,12 @@ section {
 }
 /*Trainer End*/
 /*Reach Out Start*/
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #39a6b2;
-    margin-bottom: 35px;
-    color: #024e76;
-}
 .contact {
     background-color: #024e76;
     text-align: center;
 }
 .contact h2 {
     color: #fce138;
-    text-align: center;
 }
 .contact-info iframe {
     width: 400px;
@@ -228,7 +219,8 @@ section {
     color: #fce138;
     font-size: 32px;
 }
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
