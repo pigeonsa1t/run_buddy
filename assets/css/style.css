@@ -116,7 +116,7 @@ section {
     font-size: 20px;
     margin: 0 auto;  
 }
-/*What You Do Steps*/
+/*What You Do Start*/
 .steps {
     text-align: center;
     background: #fce138;
@@ -140,7 +140,8 @@ section {
 .steps span {
     font-size: 38px;
 }
-/*Extra Rules...?*/
+/*What You Do End*/
+/*Trainer Start*/
 .trainers {
     text-align: center;
 }
@@ -193,3 +194,5 @@ section {
 .text-right {
     text-align: right;
 }
+/*Trainer End*/
+/*Reach Out Start*/
