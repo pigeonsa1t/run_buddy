@@ -34,13 +34,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
+/*Footer Start*/
 footer {
     background: #fce138;
     width: 100%;
@@ -63,6 +57,7 @@ footer a {
 section {
     padding: 60px;
 }
+/*Footer End*/
 /*Hero Style Start*/
 .hero {      
     background-image: url("../images/hero-bg.jpg");
@@ -71,8 +66,7 @@ section {
     background-position: center;
     position: relative;
 }           
-/*Hero Style End*/
-/*Form Entry Start*/
+    /*Form Entry Start*/
 .hero-form { 
     border: solid 3px #024e76;
     background-color: #fce138;
@@ -99,6 +93,9 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+.hero-form label {
+    margin: 0 5px;
+}
 .hero-form button {
     color: #fce138;
     background: #024e76;
@@ -106,5 +103,17 @@ section {
     padding: 10px;
     font-size: 16px;
 }
-/*Form Entry End*/
-/*Hero Styles End*/            
+    /*Form Entry End*/
+/*Hero Styles End*/ 
+/*NEWEST MODULE*/
+.intro {
+    text-align: center;
+}      
+.intro h2 {
+    font-size: 55px;
+    color: #fce138;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+}   
+
