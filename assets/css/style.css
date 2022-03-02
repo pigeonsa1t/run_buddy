@@ -61,10 +61,10 @@ section {
 /*Hero Style Start*/
 .hero {      
     background-image: url("../images/hero-bg.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 600px;
 }           
     /*Form Entry Start*/
 .hero-form { 
@@ -197,7 +197,7 @@ section {
 /*Trainer End*/
 /*Reach Out Start*/
 .contact {
-    background-color: #024e76;
+    background: #024e76;
     text-align: center;
 }
 .contact h2 {
