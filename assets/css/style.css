@@ -63,7 +63,7 @@ footer div {
 footer a {
     color: #024e76;
 }
-git section {
+section {
     padding: 60px;
 }
 /*Footer End*/
@@ -94,12 +94,9 @@ git section {
     border: solid 3px #024e76;
     background-color: #fce138;
     padding: 20px;
+    color: #024e76;
     width: 40%;
     margin: 3.5%;
-    color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;   
 }  
 .hero-form h3 {
     font-size: 24px;
