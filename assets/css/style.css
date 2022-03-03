@@ -63,7 +63,7 @@ footer div {
 footer a {
     color: #024e76;
 }
-.section {
+git section {
     padding: 60px;
 }
 /*Footer End*/
@@ -131,7 +131,7 @@ footer a {
 /*Hero Styles End*/ 
 /*Section Titles Start*/
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     border-bottom: 3px solid; 
     color: #024e76;
     padding-bottom: 20px;
@@ -299,4 +299,17 @@ footer a {
 }
 .flex-row {
     display: flex;
+}
+
+/*Media Query for Smaller Desktop Screens*/
+@media screen and (max-width: 980px) {
+
+}
+/*Media Query for Tablets/Smaller*/
+@media screen and (max-width: 768px) {
+
+}
+/*Media Query for Mobile/Smaller*/
+@media screen and (max-width: 575px) {
+
 }
