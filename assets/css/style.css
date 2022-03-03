@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body {
     color: #39a6b2;
@@ -18,9 +18,9 @@ header {
 }
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
 }
 header a {
     text-decoration: none;
@@ -42,7 +42,31 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 /*Nav End*/
-
+/*Footer Start*/
+footer {
+    background: #fce138;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+}
+.section {
+    padding: 60px;
+}
+/*Footer End*/
 /*Hero Style Start*/
 .hero {      
     background-image: url("../images/hero-bg.jpg");
@@ -105,8 +129,23 @@ header nav ul li a {
 }
     /*Form Entry End*/
 /*Hero Styles End*/ 
-
-/*What We Do*/    
+/*Section Titles Start*/
+.section-title {
+    font-size: 55px;
+    border-bottom: 3px solid; 
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%; 
+}
+.primary-border {
+    border-color: #fce138;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+    /*What We Do*/    
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -116,6 +155,9 @@ header nav ul li a {
     text-align: center; 
 }
 /*What You Do Start*/
+.steps {
+    background: #fce138;
+}
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -125,9 +167,6 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-.steps {
-    background: #fce138;
 }
 .step h3 {
     color: #024e76;
@@ -140,6 +179,17 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: center;
 }
+.step-img {
+    max-width: 100%;
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
@@ -148,31 +198,9 @@ header nav ul li a {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-    flex: 12;
-}
-.step-img {
-    max-width: 100%;
-    flex: 1 12%;
-    margin-right: 20px;
 }
 /*What You Do End*/
-
 /*Trainer Start*/
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;  
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%; 
-}
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
-}
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -182,9 +210,9 @@ header nav ul li a {
 }
 .trainer {
     margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    flex: 1;
 }
 .trainer img {
     width: 100%;
@@ -204,23 +232,13 @@ header nav ul li a {
 .trainer-bio p {
     font-size: 17px;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
 /*Trainer End*/
-
 /*Reach Out Start*/
 .contact {
     background: #024e76;
 }
 .contact h2 {
     color: #fce138;
-}
-.contact-info iframe {
-    
 }
 .contact-info {
     display: flex;
@@ -230,6 +248,9 @@ header nav ul li a {
 .contact-info > * {
     flex: 1;
     margin: 15px;
+}
+.contact-info iframe {
+    height: 400px;
 }
 .contact-info div {
     color: white;
@@ -244,9 +265,6 @@ header nav ul li a {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-}
-.contact-info a {
-    color: #fce138;
 }
 .contact-form input, 
 .contact-form textarea {
@@ -268,32 +286,17 @@ header nav ul li a {
     padding: 15px 0;
     font-size: 16px;
 }
+.contact-info a {
+    color: #fce138;
+}
 /*Reach Out End*/
-
-/*Footer Start*/
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+/*Utilities Start*/
+.text-left {
+    text-align: left;
 }
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.5;
+.text-right {
     text-align: right;
 }
-footer a {
-    color: #024e76;
-}
-.section {
-    padding: 60px;
-}
-/*Footer End*/
 .flex-row {
     display: flex;
 }
